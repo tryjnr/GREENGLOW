@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green Glow Eco Retreat | Woolly Weekender</title>
+    <meta name="description" content="Enquire about the Woolly Weekender, Green Glow's signature premium eco-glamping escape.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand-link" href="index.html" aria-label="Green Glow Eco Retreat home">
+        <img src="assets/logos/logo-square.png" alt="Green Glow Eco Retreat logo">
+        <span class="brand-name">Green Glow<br>Eco Retreats</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="woolly-weekender.html" aria-current="page">Woolly Weekender</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero hero--compact">
+        <img class="hero__image" src="assets/images/stargazing-tent.webp" alt="A warm glowing glamping tent under a starry night sky">
+        <div class="hero__content">
+          <p class="eyebrow">Signature glamping escape</p>
+          <h1>The Woolly Weekender.</h1>
+          <p>The Woolly Weekender is Green Glow's signature glamping escape for guests who want a short break that feels calm, premium and close to nature.</p>
+          <div class="button-row">
+            <a class="button button--primary" href="#booking">Start a Booking Enquiry</a>
+            <a class="button button--ghost" href="contact.html">Ask a Question</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <p class="eyebrow">What is included</p>
+          <h2 class="section-title">An easy itinerary for a restorative short stay.</h2>
+          <p class="lead">Each Weekender is designed to keep the experience simple, welcoming and close to the natural setting.</p>
+          <div class="itinerary-list">
+            <article class="itinerary-item">
+              <img src="assets/images/cabin-forest-window.webp" alt="A comfortable cabin bed with forest views">
+              <div>
+                <h3>Luxury cabin or tent stay</h3>
+                <p>Comfortable bedding, peaceful views and a private place to settle in.</p>
+              </div>
+            </article>
+            <article class="itinerary-item">
+              <img src="assets/images/outdoor-bath.webp" alt="An outdoor bath set against a wide mountain view">
+              <div>
+                <h3>Outdoor bath experience</h3>
+                <p>A slow wellness moment designed for quiet relaxation.</p>
+              </div>
+            </article>
+            <article class="itinerary-item">
+              <img src="assets/images/stargazing-tent.webp" alt="A glowing tent beneath stars">
+              <div>
+                <h3>Stargazing evenings</h3>
+                <p>Unwind under the sky with a gentle campfire-style atmosphere.</p>
+              </div>
+            </article>
+            <article class="itinerary-item">
+              <img src="assets/images/food-board.webp" alt="A grazing board with bread and fruit on an outdoor table">
+              <div>
+                <h3>Farm-to-table inspired dining</h3>
+                <p>Simple shared food moments that suit the retreat setting.</p>
+              </div>
+            </article>
+            <article class="itinerary-item">
+              <img src="assets/images/winter-forest-tent.webp" alt="A canvas tent reached by a forest pathway">
+              <div>
+                <h3>Nature walks</h3>
+                <p>Space to walk, breathe and notice the surrounding landscape.</p>
+              </div>
+            </article>
+            <article class="itinerary-item">
+              <img src="assets/images/sharing-food.webp" alt="Guests enjoying food together outdoors">
+              <div>
+                <h3>Wellness and connection</h3>
+                <p>Time for rest, conversation and reconnection without a crowded schedule.</p>
+              </div>
+            </article>
+          </div>
+          <div class="callout">
+            <p>Complete the booking enquiry form below and the Green Glow team will contact you with availability, package details and next steps.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--sand" id="booking">
+        <div class="container form-layout">
+          <div>
+            <p class="eyebrow">Booking enquiry</p>
+            <h2 class="section-title">Tell us about your preferred stay.</h2>
+            <p class="lead">This form sends an enquiry only. A Green Glow team member will confirm availability, inclusions and next steps before any booking is finalised.</p>
+          </div>
+          <div class="form-panel">
+            <h2>Woolly Weekender Enquiry</h2>
+            <form data-form="booking">
+              <div class="field-grid">
+                <label>Full name
+                  <input name="full-name" autocomplete="name" required>
+                </label>
+                <label>Email
+                  <input type="email" name="email" autocomplete="email" required>
+                </label>
+                <label>Phone
+                  <input type="tel" name="phone" autocomplete="tel" required>
+                </label>
+                <label>Preferred check-in date
+                  <input type="date" name="check-in" required>
+                </label>
+                <label>Number of guests
+                  <input type="number" name="guests" min="1" max="12" required>
+                </label>
+                <label>Accommodation preference
+                  <select name="accommodation" required>
+                    <option value="">Select an option</option>
+                    <option>Luxury cabin</option>
+                    <option>Glamping tent</option>
+                    <option>No preference</option>
+                  </select>
+                </label>
+              </div>
+              <label>Special requests
+                <textarea name="special-requests" placeholder="Share access needs, dietary notes or anything that would help the team prepare."></textarea>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="consent" required>
+                <span>I consent to Green Glow contacting me about this booking enquiry.</span>
+              </label>
+              <p class="form-message" tabindex="-1" role="status"></p>
+              <button class="button button--primary" type="submit">Submit Booking Enquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <img class="footer-logo" src="assets/logos/logo-square.png" alt="Green Glow Eco Retreat logo">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="woolly-weekender.html">Woolly Weekender</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copy">A short escape with outdoor bathing, stargazing and nature-led comfort.</p>
+      </div>
+    </footer>
+    <script src="assets/js/site.js"></script>
+  </body>
+</html>
